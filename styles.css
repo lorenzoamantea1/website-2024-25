@@ -1,0 +1,38 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+
+p,
+h1 {
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+div {
+    color: #727272;
+    text-align: center;
+}
+
+nav {
+    margin: 25px;
+    background: #f9f9f9;
+    padding: 16px;
+}
+
+nav .Items {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav .Items li {
+    margin: 8px;
+}
+
+nav .Items li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+}
