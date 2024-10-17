@@ -1,6 +1,9 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 p,
@@ -10,29 +13,45 @@ h1 {
     padding-right: 5%;
 }
 
-div {
-    color: #727272;
-    text-align: center;
+.navbar {
+    background-color: #ededed8c;
+    padding: 20px 20px;
 }
 
-nav {
-    margin: 25px;
-    background: #f9f9f9;
-    padding: 16px;
+.navbar>nav>.Title {
+    display: inline-block;
 }
 
-nav .Items {
+.navbar>nav>.Items {
     list-style: none;
+    display: inline-block;
+    margin-left: auto;
+}
+
+.navbar>nav {
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
 
-nav .Items li {
-    margin: 8px;
+.navbar>nav>.Items li {
+    display: inline;
+    margin: 0 15px;
 }
 
-nav .Items li a {
+.navbar>nav>.Items a {
+    color: #000000;
     text-decoration: none;
-    text-transform: uppercase;
-    position: relative;
+    font-size: 18px;
+    padding: 5px 0;
+    transition: color 0.3s;
+}
+
+.navbar>nav>.Items a:hover {
+    color: #ffffff;
+}
+
+
+.allineamento {
+    text-align: right;
+    color: red;
 }
